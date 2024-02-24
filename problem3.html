@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 3</title>
+</head>
+<body>
+    <script>
+    var yesno = "Do you agree to share your personal information in this site?";
+
+    var nickname = "Ali";
+    var height = "72";
+    var weight = "59";
+    
+    var height1 = height/12; 
+    var height2 = height%12;
+    var outputheight = height1 + "'" + height2 + "\""; 
+    
+    var tolbs = weight*2.20462;
+
+    if(confirm(yesno)==true)
+    {
+        alert('Name: ' + nickname + '\nHeight: ' + outputheight + '\nWeight: ' + weight + ' lbs');
+    }
+    else
+    {
+        alert('User does not wish to share his/her information.');
+    }
+    </script>
+
+    <a href="problem1.html">Problem 1</a>
+</body>
+</html>

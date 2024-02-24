@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 2</title>
+</head>
+<body>
+    <style type="text/css">
+    #firstn{display: inline-block;}
+    #lastn{display: inline-block;}
+    #birthy{display: inline-block;}
+    </style>
+
+    <div>
+    <p id="firstn"></p>
+    <p id="lastn"></p>
+    <p id="birthy"></p>
+    </div>
+    <script>
+    var firstname = prompt("Enter your first name");
+    var lastname = prompt("Enter your last name");
+    var birthyear = prompt("Enter your birth year");
+    var age = 2024 - birthyear;
+
+    document.getElementById("firstn").innerHTML = "Hello " + firstname;
+    document.getElementById("lastn").innerHTML = lastname + "!";
+    document.getElementById("birthy").innerHTML = "How does it feel to be " + age + " years old?";
+    </script>
+
+    <a href="problem3.html">Click For Problem 3</a>
+</body>
+</html>
